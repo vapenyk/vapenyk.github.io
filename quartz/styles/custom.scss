@@ -3,21 +3,21 @@
 // put your custom CSS here!
 @font-face {
   font-family: "Maple Mono";
-  src: url("./fonts/maple-mono-latin-400-normal.woff2") format("woff2");
+  src: url("/static/fonts/maple-mono-latin-400-normal.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Maple Mono";
-  src: url("./fonts/maple-mono-latin-400-italic.woff2") format("woff2");
+  src: url("/static/fonts/maple-mono-latin-400-italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Maple Mono";
-  src: url("./fonts/maple-mono-latin-700-normal.woff2") format("woff2");
+  src: url("/static/fonts/maple-mono-latin-700-normal.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
