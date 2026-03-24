@@ -1,6 +1,23 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-@import "@fontsource/maple-mono/400.css";
-@import "@fontsource/maple-mono/400-italic.css";
-@import "@fontsource/maple-mono/700.css";
+@font-face {
+  font-family: "Maple Mono";
+  src: url("./fonts/maple-mono-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maple Mono";
+  src: url("./fonts/maple-mono-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Maple Mono";
+  src: url("./fonts/maple-mono-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
